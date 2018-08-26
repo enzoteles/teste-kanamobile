@@ -10,11 +10,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        tv_name.text = "Teste"
+        tv_name.text = "Teste Texto"
         bt_ok.setOnClickListener {
 
             tv_name.text = "Teste butão"
         }
+
+
 
 
     }
